@@ -70,7 +70,10 @@ class _BottomSheetViewState extends State<BottomSheetView> {
               controller: _pageController,
               count: 6,
               effect: JumpingDotEffect(
-                  dotColor: Colors.white, dotHeight: 2, dotWidth: 50),
+                dotColor: Colors.white,
+                dotHeight: 2,
+                dotWidth: 50,
+              ),
             ),
           ),
         ),
